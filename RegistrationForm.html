@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=""https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"">
+    <link rel="stylesheet" href="style.css">
+    <title>html demo2</title>
+</head>
+<body>
+    <h2>Registration form</h2>
+    <div id="reg-form">
+        <form action="" method="">
+            <label for="first-name">First name:</label>
+            <input type="text" name="first-name" placeholder="lucky" required>
+            <label for="last-name">Last name:</label>
+            <input type="text" name="last-name" placeholder="lucky" required>
+            <div>
+                <label for="gender-choice">Male</label>
+                <input type="radio" name="gender-choice" value="choice-1">
+                <label for="gender-choice">Female</label>
+                <input type="radio" name="gender-choice" value="choice-2">
+                <label for="gender-choice">Other</label>
+                <input type="radio" name="gender-choice" value="choice-3">
+            </div>
+            <div>
+                <label for="email">Email Id:</label>
+                <input type="text" name="email" placeholder="xyz@abc.com" required>
+                <label for="password">Password:</label>
+                <input type="text" name="password" required>
+            </div>
+            <div>
+                <label for="month">Birthday:</label>
+                <select name="month">
+                    <option value="0" selectiondisabled>Month</option>
+                    <option value="jan">January</option>
+                    <option value="feb">Febuary</option>
+                    <option value="mar">March</option>
+                    <option value="apr">April</option>
+                    <option value="may">May</option>
+                    <option value="june">June</option>
+                    <option value="july">July</option>
+                    <option value="aug">August</option>
+                    <option value="sep">September</option>
+                    <option value="oct">October</option>
+                    <option value="nov">November</option>
+                    <option value="dec">December</option>
+                </select>
+            </div>
+            <div>
+                <input type="checkbox" name="checkbox" required>
+                <label for="checkbox">I agree to terms and conditions</label>
+                <button name="submit-btn">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
